@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <link rel="stylesheet" href="css/style_In.css">
+        <meta charset="UTF-8">
+        <title>Registre</title>
+    </head>
+    
+
+    <body style="background-color:whitesmoke;" >
+
+        
+
+        <div class="navbar" >
+              
+            <div style="padding: 8px 0px 0px 0px;"> 
+                <a href="index.html" class="nb">   
+                    <img src="Img/Home.png" width="50" height="50">
+                </a> 
+
+            </div>
+
+            <div style="padding: 10px 0px 0px 0px;" >
+        
+                <a href="serch.html" >   
+                    <img src="Img/serch.png" width="50" height="50" >
+                </a> 
+
+            </div>
+            
+        
+        </div>
+          
+
+        <div id="container">
+
+            
+
+            <form action="register.php" method="post" id="contact_form">
+
+                <div >
+                    <label for="name"></label>
+                    <H2>INGRESO PACIENTES</H2>
+
+                </div>
+                <br>
+
+                <div class="name">
+                    <label for="name"></label>
+                    <input type="text"  name = "nom" placeholder="Nombre"   required>
+                </div>
+
+                <div class="Lname">
+                    <label for="name"></label>
+                    <input type="text" name = "lnom" placeholder="Apellido"   required>
+                </div>
+                <div>
+                    <label for="name"></label>
+                    <input type="text" name = "ced" placeholder="Cedula"   required>
+                </div>
+              
+                <div class="age">
+                    <label for="name"></label>
+                    <input type="text" name = "age" placeholder="Age"   required>
+                </div>
+
+                <div class="subject">
+
+                    <select name="gen" >
+                        
+                        <option value="0">Genero </option>
+                        <option value="1">Hombre </option>
+                        <option value="2">Mujer  </option>
+                        <option value="3">Otros  </option>
+                    </select>
+ 
+                </div>
+
+              
+                <div class="subject_2">
+
+                    <select name="eps" >
+                        <option value="0">  EPS...   </option>
+                        <option value="1">  Aliansalud   </option>
+                        <option value="2">  Saludtotal   </option>
+                        <option value="3">  Cafesalud    </option>
+                        <option value="4">  Sanitas      </option>
+                        <option value="5">  Compensar    </option>
+                        <option value="6">  Confinalco   </option>
+                        <option value="7">  Sura         </option>
+                        <option value="8">  Comfenal     </option>
+                        <option value="9">  Coomeva      </option>
+                        <option value="10"> Damisanar    </option>
+                        
+                    </select>
+    
+                </div>
+
+
+                <div class="date1">
+
+                    <label for="name"></label>
+                    <input type="text" name = "colt" placeholder="COL TOTAL"       required>
+                    
+                
+                </div>
+
+                <div class="date2 ">
+
+                    <label for="name"></label>
+                    <input type="text" name = "hdl" placeholder="HDL"             required>
+                
+                </div>
+                <br><br><br><br>
+
+                <div class="date1 ">
+
+                    <label for="name"></label>
+                    <input type="text" name = "ldl" placeholder="LDL"             required>
+                
+                </div>
+
+                <div class="date2 ">
+
+                    <label for="name"></label>
+                    <input type="text"  name = "trigl" placeholder="TRIGLICÉRIDOS"    required>
+                
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+              
+                <div  >
+                    <input type="submit" value="Guardar" class="botton"  />
+                </div>
+
+
+            </form><!-- // End form -->
+
+        </div><!-- // End #container -->
+
+        
+
+    </body>
+
+    
+
+
+
+</html>
