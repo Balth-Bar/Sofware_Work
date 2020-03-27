@@ -41,6 +41,7 @@
                 if(mysqli_num_rows($reresultado)>0)
                 {
                     $status="Existente";
+                    
     
 
                 }else{
@@ -64,10 +65,16 @@
                 <a href="index.html" class="nb">   
                     <img src="Img/Home.png" width="50" height="50">
                 </a> 
+                
             
         </div>
 
         <div id="container">
+            <div >
+                <label for="name"></label>
+                <H2>Ingreso al sistema</H2>
+
+            </div>
 
             <div>
                 <label for="name"></label>
@@ -83,10 +90,10 @@
             
 
 
-            <div class="navbar">
+            <div style="margin: 30px 0px 35px 250px;">
     
                 <a href="register.html" class="nb">   
-                    <input type="submit" value="Ingresar Nuevo usuario"  />
+                    <input type="submit" value="Ingresar Nuevo usuario " class="botton" />
                 </a> 
                     
             </div>
