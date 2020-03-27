@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style_Ingreso.css">
+    <title>Control de Calidad</title>
+  </head>
+  <body>
+    <h1>Control de Calidad</h1>
+    <div class="container-fluid grid py-5">
+        <div class="container p-3 my-3 #36747D text-white">
+          <!--nav nav-tabs-->
+            <ul class="nav nav-tabs">
+                
+                <li class="active"><a data-toggle="tab" href="#Ingresar">Ingresar</a></li>
+    
+                <li><a data-toggle="tab" href="#Consultar">&nbsp;&nbsp;Consultar</a></li>
+                
+                <li><a data-toggle="tab" href="#Estadisticas">&nbsp;&nbsp;Estadisticas</a></li>
+                
+              </ul>              
+        </div>
+    </div>
+    <div class="tab-content">
+        <div id="Ingresar" class="tab-pane fade">
+          <form action="control_calidad.php" method="post" class="form-control"></form>
+            <div class="container"> 
+              <h1>Ingresar los datos de control de calidad</h1>
+              <p class="lead"></p>
+              <p>Ingrese los datos que se solicitan a continuación.</p>
+              <h2 class="mt-4">Colesterol total</h2>
+              <input type="text" name="Col1_1" placeholder="Nivel de control 1" class="input-33-buscar">
+              <input type="text" name="Col2_1" placeholder="Nivel de control 2" class="input-33-buscar">
+              <h2 class="mt-4">HDL</h2>
+              <input type="text" name="HDL1_1" placeholder="Nivel de control 1" class="input-33-buscar">
+              <input type="text" name="HDL2_1" placeholder="Nivel de control 2" class="input-33-buscar">
+              <h2 class="mt-4">LDL</h2>
+              <input type="text" name="LDL1_1" placeholder="Nivel de control 1" class="input-33-buscar">
+              <input type="text" name="LDL2_1" placeholder="Nivel de control 2" class="input-33-buscar">
+              <h2 class="mt-4">Trigliceridos</h2>
+              <input type="text" name="Trg1_1" placeholder="Nivel de control 1" class="input-33-buscar">
+              <input type="text" name="Trg2_1" placeholder="Nivel de control 2" class="input-33-buscar">
+              <br>
+              <br>
+              <button type="button" class="btn btn-dark" name="datos">Enviar</button>
+              <br>
+              <br>
+                </div>
+         
+        </div>
+        <div id="Consultar" class="tab-pane fade">
+            <div class="container">
+                <h1>Tabla comparativa control de calidad</h1>
+                <p>En la siguiente tabla se observa la fecha y hora de la toma de muestra, 
+                    el control de calidad 1 y 2 y se observa en color rojo los valores 
+                    fuera de los rangos normales
+                </p>           
+                <!--table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Perfil lipídico</th>
+                      <th>Fecha y Hora</th>
+                      <th>Nivel de control 1</th>
+                      <th>Nivel de control 2</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Colesterol</td>
+                      <td>24/03/2020 5:05pm</td>
+                      <td>6.63</td>
+                      <td>2.61</td>
+                    </tr>
+                    <tr>
+                      <td>HDL</td>
+                      <td>24/03/2020 2:05pm</td>
+                      <td>1.63</td>
+                      <td>0.73</td>
+                    </tr>
+                    <tr>
+                      <td>LDL</td>
+                      <td>24/03/2020 4:05pm</td>
+                      <td>3.80</td>
+                      <td>1.67</td>
+                    </tr>
+                    <tr>
+                        <td>Triglicéridos</td>
+                        <td>24/03/2020 3:05pm</td>
+                        <td bgcolor=#FDC1B9>3</td>
+                        <td>0.93</td>
+                      </tr>
+                  </tbody>
+                </table-->
+              </div>
+        </div>
+        <div id="#Estadisticas" class="tab-pane fade">
+            <div class="container">
+                
+            </div>
+        </div>
+      </div>
+    <footer>
+        <a href="#">www.lab_lip.com.co</a> Teléfono:  correo: software@vecajudi.co
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="C:\Users\veroh\OneDrive - Universidad de Antioquia\Documentos\Escritorio\Universidad\2019-2\Ingenieria de software\GIT_Entregable1\Controldecalidad\js/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+  </body>
+</html>
