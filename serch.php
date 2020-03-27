@@ -51,9 +51,6 @@
 
             <div >
 
-                
-                
-
                 <form action="serch.html" method="post" id="contact_form">
                     <div >
                         <label for="name"></label>
@@ -126,14 +123,14 @@
 
                                 }else{
 
-                                   echo'<dive><H2 style = "margin: 0px 0px 0px -160px; color: blueviolet;">Usuario o Contraseña incorrectos</H2></div>';
+                                   echo'<div><H2 style = "margin: 0px 0px 0px -120px; color: blueviolet;">Usuario o Contraseña incorrectos</H2></div>';
                          
                                 }                        
                             
                             }
                     
                         ?>
-                    </dive>
+                    </div>
 
                     <div  style="margin: 20px 20px -40px 440px;">
                         <input type="submit" value="Regresar" class="botton"  />
