@@ -24,6 +24,7 @@
 <?php
             include("db/conexion_db.php");
             $sql = $connection->query("SELECT Perfil lipídico,Fecha y hora, Nivel de control1, Nivel de control2 FROM prueba");
+            echo 'Hola'
             echo '<table class="table table-hover">
             <tr>
                 <th>Perfil lipídico</th>
